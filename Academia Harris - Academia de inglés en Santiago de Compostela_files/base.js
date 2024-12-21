@@ -1,0 +1,1 @@
+$(window).scroll(function(){var b=$(window).outerHeight();var a=$("#contenedor").outerHeight();h=b/4;if(a>b){if($(this).scrollTop()>h){$("#gotop").show();$(".footer-end").css("padding-bottom","54px")}else{$("#gotop").hide();$(".footer-end").css("padding-bottom","0px")}}});$("#gotop").click(function(){$("body, html").animate({scrollTop:"0px"},300)});
